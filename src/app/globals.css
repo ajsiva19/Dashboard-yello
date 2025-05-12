@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ol-control {
+  @apply bg-white rounded-lg shadow-md;
+}
+
+.ol-zoom {
+  @apply left-auto right-4 top-4;
+}
+
+.ol-zoom button {
+  @apply bg-white text-gray-700 hover:bg-gray-100 w-8 h-8 m-1;
+}
