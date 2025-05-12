@@ -32,12 +32,12 @@ const AllProjects: React.FC = () => {
             />
           </div>
           
-          {/* <button 
+          <button 
             onClick={() => setView(view === 'grid' ? 'map' : 'grid')}
             className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
           >
             {view === 'grid' ? 'View Map' : 'View Grid'}
-          </button> */}
+          </button>
           
           <button className="p-2 rounded-md border border-gray-300 hover:bg-gray-50 transition-colors">
             <Filter size={18} className="text-gray-600" />
